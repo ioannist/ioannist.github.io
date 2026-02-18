@@ -5,4 +5,11 @@ repo_description_lines_max: 2
 
 github_repos:
   - ioannist/six-birds-theory
-  - ioannist/ioannist.github.io
+  - ioannist/six-birds-quantum
+  - ioannist/six-birds-life
+  - ioannist/six-birds-space
+  - ioannist/six-birds-agent
+  - ioannist/six-birds-de
+  - ioannist/six-birds-mathematics
+  - ioannist/six-birds-physics
+  - ioannist/six-birds-time
