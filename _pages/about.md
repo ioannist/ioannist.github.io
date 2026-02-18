@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mr. Automorph Inc. (US)
+subtitle: Automorph Inc. (US)
 
 profile:
   align: right
   image:
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Author, Mr. Automorph Inc. (US)</p>
+    <p>Author, Automorph Inc. (US)</p>
     <p>Based in Greece</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Ioannis Tsiokos is an author at Mr. Automorph Inc. (US), based in Greece.
+Ioannis Tsiokos is an author at Automorph Inc. (US), based in Greece.
 
 This site hosts research papers and related material, with publications listed on the [publications page](/publications/).
