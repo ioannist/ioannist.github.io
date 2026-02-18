@@ -69,9 +69,12 @@
 
       .title {
         font-weight: bolder;
+        margin-bottom: 0.2rem;
       }
 
       .author {
+        margin-bottom: 0.2rem;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -98,7 +101,20 @@
         }
       }
 
+      .periodical {
+        font-size: 0.92rem;
+        color: var(--global-text-color-light);
+      }
+
+      .summary {
+        margin: 0.45rem 0 0.6rem 0;
+        font-size: 0.95rem;
+        line-height: 1.45;
+      }
+
       .links {
+        margin-bottom: 0.35rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);

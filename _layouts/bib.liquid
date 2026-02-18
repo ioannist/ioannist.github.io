@@ -186,6 +186,18 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.abstract %}
+      {% assign abstract_words = entry.abstract | strip | split: ' ' %}
+      {% assign preview_word_count = 28 %}
+      {% if abstract_words.size > preview_word_count %}
+        {% assign abstract_preview = abstract_words | slice: 0, preview_word_count | join: ' ' | append: '...' %}
+      {% else %}
+        {% assign abstract_preview = entry.abstract %}
+      {% endif %}
+      <div class="summary">
+        {{ abstract_preview }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
